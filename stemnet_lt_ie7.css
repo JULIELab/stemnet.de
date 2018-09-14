@@ -1,0 +1,8 @@
+#header, #navigation, #subnav, #columns_container, #footer, #w3c {
+	width:760px;
+}
+
+#navigation {
+	height: 40px;
+	overflow: hidden;
+}

@@ -1,0 +1,290 @@
+body {
+	padding: 10px;
+	background-color: #e6eef5;
+}
+
+#header {
+	width: 740px;
+	height: 102px;
+	margin: auto;
+	padding: 10px 10px 0px 10px;
+	background: #fff url(img/header_bg.gif) no-repeat;		
+}
+
+#navigation {
+	height: 20px;
+	width: 740px;
+	margin: auto;	
+	padding: 12px 10px 8px 10px;
+	background: #68819f url(img/navigation_bg.gif) no-repeat;
+}
+
+#navigation ul{
+	display: inline;
+	margin: 0;
+	margin-left: 66px;
+	padding: 0;
+}
+
+#navigation ul li {
+	display: inline;
+	list-style: none;
+	margin: 0;
+	border-right: 1px solid #617a97;
+	padding: 12px 14px 11px 14px;
+	vertical-align: top;
+	font-family: Verdana, Helvetica, sans-serif;
+	font-size: 13px;
+	letter-spacing: 0.06em;
+}
+
+#navigation ul li.first {
+	border-left: 1px solid #617a97;
+}
+
+#navigation ul li.active {
+	background: #3e586e url(img/navigation_bg_active.gif) repeat-x;
+	color: #e6eef5;
+}
+
+#navigation ul li:hover {
+	background: #60407c url(img/navigation_bg_hover.gif) repeat-x;
+	color: #ebe8f5;
+}
+
+#navigation ul li a {
+	height:40px;
+	text-decoration: none;
+	color: #fff;
+}
+
+#navigation ul li.active a {
+	color: #e6eef5;
+}
+
+#navigation ul li:hover a {
+	color: #ebe8f5;
+}
+
+#subnav {
+	height: 20px;
+	width: 740px;
+	margin: auto;	
+	padding: 6px 10px 0px 10px;
+	background: #fff url(img/columns_bg.gif) repeat-y;
+}
+
+#subnav ul {
+	margin: 0;
+	padding: 0;
+
+}
+
+#subnav ul li {
+	display: inline;
+	margin: 0px 10px 0px 0px;
+	padding-left: 10px;
+	border-left: 1px solid #3e586e;
+	vertical-align: top;
+	font-family: Verdana, Helvetica, sans-serif;
+	font-size: 13px;
+	letter-spacing: 0.06em;
+	
+}
+
+#subnav ul li.first {
+	border-left: 0;	
+}
+
+#columns_container {
+	min-height: 720px;
+	overflow: hidden;
+	width: 720px;
+	margin: auto;
+	padding: 20px 10px 0px 30px;
+	background: #fff url(img/columns_bg.gif) repeat-y;
+}
+
+.column {
+	float: left;
+	margin-right: 20px;
+}
+
+.width680 {
+	width: 680px;
+}
+
+.width340 {
+	width: 340px;
+}
+
+.width400 {
+	width: 400px;
+}
+
+.width280 {
+	width: 280px;
+}
+
+.width226 {
+	width: 226px;
+}
+
+#w3c {
+	clear: both;
+	width: 720px;
+	margin: auto;
+	padding: 10px 20px 10px 20px;
+	background: #fff url(img/columns_bg.gif) repeat-y;
+	text-align: right;
+}
+
+#w3c img {
+	vertical-align: top;
+}
+
+.box_container {
+	margin-bottom: 20px;
+	background-color: #ebe8f5;
+}
+
+.box_container img {
+	display: block;
+}
+
+.box_header {
+	background: #fff url(img/box_header_bg_r.gif)  no-repeat right;	
+	padding: 0;
+	margin: 0;
+}
+
+.box_header img {
+	padding: 0;
+	margin: 0;
+}
+
+.box_content {
+	border-left: 1px solid #98a4b0;
+	border-right: 1px solid #98a4b0;
+	padding: 10px 20px 10px 20px;
+}
+
+.box_footer {
+	height: 10px;
+	background: #fff url(img/box_footer_bg_r.gif)  no-repeat right;	
+}
+
+
+#footer {
+	clear: both;
+	width: 760px;
+	height: 20px;
+	margin: auto;
+	background: #fff url(img/footer_bg.gif) no-repeat;
+}
+
+table {
+	margin: 0;
+	margin-bottom: 1em;	
+	border-spacing: 0;
+	border: 0;
+	padding: 0;
+	white-space: nobreak;
+	
+}
+
+p, h1, h2, h3, ul, ol, td, table {
+	margin: 0;
+	padding: 0;	
+	font-family: Verdana, Helvetica, sans-serif;
+}
+
+ul, ol {
+	padding-top: 1em;
+}
+
+h1 {
+	margin-top: 2em;
+	font-size: 16px;
+	font-weight: bold;	
+}
+
+h2 {
+	margin-top: 2em;
+	font-size: 14px;
+	font-weight: bold;
+}
+
+h3 {
+	margin-top: 1.5em;
+	font-size: 13px;
+	font-weight: bold;
+}
+
+h1.first, h2.first, h3.first, p.first {
+	margin-top: 0;
+}
+
+p {
+	margin-top: 1em;
+	font-size: 12px;
+}
+
+td {
+	vertical-align: top;
+	white-space: nowrap;
+	padding-right: 2em;
+	padding-bottom: 0.25em;	
+	font-size: 12px;
+}
+
+td.header {
+	padding-bottom: 0.5em;	
+	font-weight: bold;
+}
+
+a, a:active, a.visited {
+	color: #3e586e;
+	text-decoration: none;
+	
+}
+
+a:hover {
+	color: #60407c;
+	text-decoration: underline;
+}
+
+ul {
+	list-style: url(img/list_bullet.gif);
+	margin: 0;
+	padding-left: 1.5em;
+	font-size: 12px;
+}
+
+li {
+	padding-bottom: 0.25em;
+}
+
+img {
+	border: 0;
+}
+
+.margin-bottom05 {
+	display: block;
+	margin-bottom: 0.5em;
+}
+
+.margin-bottom10 {
+	display: block;
+	margin-bottom: 1em;
+}
+
+.margin-bottom15 {
+	display: block;
+	margin-bottom: 1em;
+}
+
+.margin-bottom20 {
+	display: block;
+	margin-bottom: 2em;
+}
